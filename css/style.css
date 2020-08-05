@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.widget-box {
+    box-sizing: content-box;
+}
+/* flex responsive */
+.flex-responsive {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 1 1 320px;
+  padding: 1rem;
+}
+/* grid responsive */
+.responsive-grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.item-2 {
+  padding: 1rem;
+}
